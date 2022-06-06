@@ -132,3 +132,4 @@
 # for i in range(1,a+1):
 #     T=T*i
 # print(T//B)
+#문제10번
