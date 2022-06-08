@@ -146,3 +146,16 @@
 # print(max(temp))
 # print(min(num))
 #문제13번
+a=int(input())
+temp=[]
+for i in range(a):
+    temp.append(int(input()))
+# for i in range(a):
+#     for j in range(i+1,a):
+#         if temp[i]>temp[j]:
+#             s=temp[i]
+#             temp[i]=temp[j]
+#             temp[j]=s
+# for i in temp:
+temp.sort()
+print(temp)
