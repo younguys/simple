@@ -95,6 +95,7 @@
 #             temp1[i-1]=total
 #         temp=temp1.copy()
 #     print(max(temp))18
+#문제10번
 # a=int(input())
 # if a%5==0:
 #     print(a//5)
@@ -114,6 +115,7 @@
 #             break
 #         else:
 #             continue
+#문제11번
 # a,b,c=map(int,input().split())
 # if c-a ==0:
 #     print(1)
@@ -132,4 +134,15 @@
 # for i in range(1,a+1):
 #     T=T*i
 # print(T//B)
-#문제10번
+#문제12번
+# a=list(map(int,input().split()))
+# temp=[]
+# num=[]
+# for i in range(1,max(a)+1):
+#     if a[0]%i==0 and a[1]%i==0:
+#         temp.append(i)
+#     if max(a)*i%min(a)==0:
+#         num.append(max(a)*i)
+# print(max(temp))
+# print(min(num))
+#문제13번
